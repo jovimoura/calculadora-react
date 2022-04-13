@@ -15,6 +15,7 @@ body {
 
   font-family: 'Oswald', sans-serif;
   height: auto;
+  width: auto;
   display: grid;
   align-items: center;
   flex-direction: column;
@@ -25,7 +26,8 @@ body {
   border: 3px solid #fff;
   border-radius: 15px;
   padding: 1rem;
-  margin: 2.5rem 0
+  height: auto;
+  width: auto;
   /* max-width: 280px;
   max-height: 500px; */
 }
