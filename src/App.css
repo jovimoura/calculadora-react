@@ -14,9 +14,8 @@ body {
 .App {
 
   font-family: 'Oswald', sans-serif;
-  height: 100%;
+  height: auto;
   display: grid;
-  margin:auto 0;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +25,7 @@ body {
   border: 3px solid #fff;
   border-radius: 15px;
   padding: 1rem;
+  margin: 2.5rem 0
   /* max-width: 280px;
   max-height: 500px; */
 }
