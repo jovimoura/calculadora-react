@@ -16,7 +16,7 @@ body {
   font-family: 'Oswald', sans-serif;
   height: 100%;
   display: grid;
-  margin:auto;
+  margin:auto 0;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -28,19 +28,6 @@ body {
   padding: 1rem;
   /* max-width: 280px;
   max-height: 500px; */
-}
-
-@media (max-width:768px) {
-  html {
-    height: 100%;
-  }
-
-  .App {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
 }
 
 footer {
@@ -58,4 +45,14 @@ a:hover {
 }
 a:active {
   text-decoration: underline;
+}
+
+@media (max-width:768px) {
+
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
 }

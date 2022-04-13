@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./assets/css/reset.css"
-import "./App.css";
 import './assets/css/Display.css'
 import "./assets/css/Keyboard.css";
+import "./App.css";
 
 function App() {
   const [ result, setResult ] = useState("0")
