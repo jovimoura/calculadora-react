@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Calculadora React</h1>
       <div className="Calculator">
         <div className="Display">{result}</div>
         <div className="Keyboard">

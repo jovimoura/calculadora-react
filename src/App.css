@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
+body {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+h1, h2, h3, footer, a {
+  font-weight: 300;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
 html, body {
   height: 100%;
   overflow: hidden;
@@ -27,10 +48,8 @@ body {
   border: 3px solid #fff;
   border-radius: 15px;
   padding: 1rem;
-  height: auto;
+  height: 100%;
   width: auto;
-  /* max-width: 280px;
-  max-height: 500px; */
 }
 
 footer {
@@ -57,5 +76,10 @@ a:active {
     align-items: center;
     justify-content: center;
     margin: auto;
+  }
+
+  .Calculator {
+    max-width: 300px;
+    max-height: 500px;
   }
 }
