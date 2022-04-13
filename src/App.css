@@ -1,14 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
 .App {
+
+  font-family: 'Oswald', sans-serif;
+  height: 100%;
   display: grid;
+  margin:auto;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
-.App .Calculator{
+.Calculator{
   border: 3px solid #fff;
   border-radius: 15px;
   padding: 1rem;
   /* max-width: 280px;
   max-height: 500px; */
+}
+
+@media (max-width:768px) {
+  html {
+    height: 100%;
+  }
+
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  transition: ease-in-out .22s;
+}
+a:hover {
+  color: #33a1fd;
+}
+a:active {
+  text-decoration: underline;
 }

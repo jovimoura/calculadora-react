@@ -12,6 +12,7 @@
   width: 4.5rem;
   font-size: 25px;
   outline: none;
+  margin: 2px;
 }
 
 .button:active {
@@ -20,9 +21,10 @@
 }
 
 #double {
+  margin: 5px 0;
   border-radius: 35px;
   height: 4.1rem;
-  width: 8.7rem;
+  width: 9rem;
   grid-column: span 2;
 }
 
