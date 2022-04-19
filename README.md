@@ -29,7 +29,7 @@ npm install
 ```
 ### Inicie a aplicação🤩
 ```
-npm run serve
+npm run start
 ```
 ### A aplicação, por padrão, fica na porta:🤗
 
