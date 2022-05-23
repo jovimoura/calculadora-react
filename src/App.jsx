@@ -8,9 +8,8 @@ function App() {
   const [ result, setResult ] = useState("0")
 
   const handleClick = e => {
-    if(result === "0") {
+    if(result === "0" || result === '.') {
       setResult(e.target.name)
-      
     } else {
       setResult(result.concat(e.target.name))
     }
