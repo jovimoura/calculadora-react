@@ -55,7 +55,7 @@ function App() {
         </div>
       </div>
       <footer className="rodape">
-      Feito por <a rel="noreferrer" href="https://jovimoura.github.io/portfolio/" className="github" target="_blank">João Victor Moura</a>
+      Feito por <a rel="noreferrer" href="https://portfolio-jovimoura.vercel.app/" className="github" target="_blank">João Victor Moura</a>
       </footer>
     </div>
   );
